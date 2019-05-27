@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+.headers {
+	position:relative;
+	width:100%;
+    height: 15%;
+	display: inline-block;
+}
+
+.header {	
+	position:absolute;
+    width:30%;
+    height:100%;
+     margin-left: 5%;
+	background-color: fuchsia;
+
+}
+
+.header2 {	
+	position:absolute;
+    width:55%;
+    height:100%;
+    margin-left: 40%;
+	background-color: lime;
+
+}
+
+
+.bodies {
+	position:relative;
+	width:100%;
+    height: 60%;
+	display: inline-block;
+	
+	
+}
+
+.body {
+    position:absolute;
+    width:90%;
+    height:95%;
+    margin-top: 1%;
+    margin-left: 5%;
+	background-color: orange;
+}
+
+.footer {
+	 position:absolute;
+     width:90%;
+     height:10%;
+     margin-left: 5%;
+	 background-color: silver;
+	
+	
+}
+

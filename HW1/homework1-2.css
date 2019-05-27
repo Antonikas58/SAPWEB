@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+
+
+html, body { 
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%;
+}
+
+.header {	
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15%;
+	background-color: fuchsia;
+	border-radius: 25px;
+
+}
+
+.sidebar {
+	position:fixed;
+    width: 5%;
+    top: 20%;
+	bottom: 20%;
+	height: 60%;
+    background-color: threedlightshadow;
+    opacity: 0.5;
+	
+}
+
+.footer {
+	position:fixed;
+    width: 100%;
+	bottom: 0%;
+	height: 15%;
+    background-color: olive;
+   	
+}
+
+.central {
+	min-width:95%;
+	position:fixed;
+	bottom: 20%;
+	top:20%;
+	left:5%;
+    background-color: green;
+		
+}
+

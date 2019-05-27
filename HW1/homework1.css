@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+
+
+.blue {
+	position: absolute;
+    top: 203px;
+    left: 203px;
+	height: 303px;
+	width: 303px;
+    background-color: blue;
+
+ 
+}
+
+.red  {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+	height: 303px;
+	width: 303px;
+    background-color: red;
+}
+
+.green  {
+    position: absolute;
+    top: 103px;
+    left: 103px;
+	height: 303px;
+	width: 303px;
+    background-color: green;
+}
+
+.white1  {
+    position: absolute;
+    top: 3px;
+    left: 303px;
+	height: 203px;
+	width: 203px;
+    background-color: white;	
+
+}
+
+.white2  {
+	position: absolute;
+    top: 303px;
+    left: 3px;
+	height: 203px;
+	width: 203px;
+    background-color: white;
+
+		
+}
+
+
+.row1 {
+
+    display: inline-block;
+}
+
+.row2 {	
+
+    display: inline-block;
+}
+
+.mai {
+	position:absolute;
+	top:0px;
+	left:0px;
+	border-style: solid;
+	border-color: black;
+	background-color: ;
+    min-height: 503px;
+    min-width:503px;
+}
+
