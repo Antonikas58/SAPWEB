@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript" src="Protot.js"></script>
+</head>
+<body>
+
+<h3>After changes were done to input fields you should click on SET button in order to adjust this changes to your object</h3>
+
+<label for="Type">Plant type:</label><br>
+<SELECT NAME="Type" id="Type">  
+  <OPTION VALUE="fern"> Fern  
+  <OPTION VALUE="spruce"> Spruce  
+  
+</SELECT>
+<br><br>
+
+<label for="plant_name">Plant name:</label><br>
+ <input name="plant_name" id="plant_name"><br> <br>
+
+ 
+ <label for="plant_description">Plant description:</label><br>
+ <input name="plant_description" id="plant_description"><br> <br>
+ 
+  <label for="plant_species">Plant species:</label><br>
+ <input name="plant_species" id="plant_species"><br> <br>
+
+  <label for="plant_age">Plant age:</label><br>
+ <input type="number" name="plant_age" id="plant_age"><br> <br>
+ 
+   <label for="plant_size">Plant size:</label><br>
+ <input name="plant_size" id="plant_size"><br> <br>
+
+<input type="button" class="button" value="SET" onclick="Set()" />
+<input type="button" class="button" value="GET" onclick="Get()" />
+<input type="button" class="button" value="GoWild" onclick="wild()" />
+<input type="button" class="button" value="Loyalty" onclick="Loyal()" />
+<input type="button" class="button" value="Grow" onclick="Growing()" />
+
+
+</body>
+</html>
